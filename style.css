@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Icons";
+    src:url("") format("");
+   }
+body{
+    background-color: #1b1b1b;
+    color: #fafafa;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin: 0;
+}
+/*header*/
+header{
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    min-height: 80px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+header a{
+    color:#fafafa;
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+}
+.logo-site img{
+    max-height: 56px;
+}
+/*main menu*/
+.menu-header .menu{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.menu-header .menu a{
+    display: flex;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.menu-header .menu a:hover{
+    color: #83D228;
+}
+
+.menu-header .menu .active{
+    color: #83D228;
+
+}
+header .icon-burger{
+    display: none;
+}
+header .menu-burger{
+    display: none;
+}
