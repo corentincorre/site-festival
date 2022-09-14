@@ -1,0 +1,23 @@
+/*main menu*/
+.menu-header{
+    .menu{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        a{
+            display: flex;
+            text-transform: uppercase;
+            transition: all .3s;
+            &:hover{
+                color: #83D228;
+            }
+        }
+        .active{
+            color: #83D228;       
+        }
+    }
+
+} 
+
+
+

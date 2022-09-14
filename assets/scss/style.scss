@@ -23,7 +23,8 @@ $theme-colors: (
 @import "layout/footer.scss";
 
 // Components
-
+@import "components/menu-header.scss";
+@import "components/searchbar.scss";
 
 // Elements
 
@@ -45,50 +46,11 @@ h2{
     font-weight: 700;
 }
 
-
-/*main menu*/
-.menu-header .menu{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-.menu-header .menu a{
-    display: flex;
-    text-transform: uppercase;
-    transition: all .3s;
-}
-
-.menu-header .menu a:hover{
-    color: #83D228;
-}
-
-.menu-header .menu .active{
-    color: #83D228;
-
-}
 header .icon-burger{
     display: none;
 }
 header .menu-burger{
     display: none;
-}
-.searchbar{
-    padding: 10px 25px;
-    box-sizing: border-box;
-    color: #fafafa;
-    font-family: "Anek Gujarati";
-    font-size: 16px;
-    line-height: 0;
-    background-color: rgba(250, 250, 250, 0.25);
-    border: none;
-}
-.searchbar:focus{
-    color: #fafafa;
-    font-family: "Anek Gujarati";
-
-    background-color: rgba(250, 250, 250, 0.50);
-    border: none;
-    box-shadow: none;
 }
 
 .section {
