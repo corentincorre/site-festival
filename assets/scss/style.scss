@@ -25,52 +25,16 @@ $theme-colors: (
 // Components
 @import "components/menu-header.scss";
 @import "components/searchbar.scss";
+@import "components/section-hero.scss";
+@import "components/title-section.scss";
 
 // Elements
 
 
 
 
-body{
-    background-color: #1b1b1b;
-    color: #fafafa;
-    font-family: 'Anek Gujarati', sans-serif;
-    font-weight: 400;
-    margin: 0;
-}
-h1,h2,h3{
-    text-transform: uppercase;
-}
-h2{
-    font-size: 48px;
-    font-weight: 700;
-}
 
-header .icon-burger{
-    display: none;
-}
-header .menu-burger{
-    display: none;
-}
 
-.section {
-    position: relative;
-}
-
-h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size:96px;
-}
-
-.carouselExampleControls, .carousel-item {
-    height: 100vh;
-}
 
 article img {
     width: 100%;
