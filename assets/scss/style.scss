@@ -27,43 +27,10 @@ $theme-colors: (
 @import "components/searchbar.scss";
 @import "components/section-hero.scss";
 @import "components/title-section.scss";
+@import "components/text-img-section.scss";
+@import "components/event-grid.scss";
 
 // Elements
 
 
 
-
-
-
-
-article img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.bloc-evenements {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 2rem;
-}
-.bloc-evenements h3{
-    margin-top: 1rem;
-}
-.address{
-    color: #83D228;
-}
-.tag-list{
-    list-style: none;
-    display: flex;
-    gap: .5rem;
-    padding-left: 0;
-}
-.tag{
-    background-color: rgba(250, 250, 250, 1);
-    color: #1b1b1b;
-    border-radius: 20px;
-    padding: 0 4px;
-    line-height: 20px;
-    
-}
