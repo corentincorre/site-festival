@@ -11788,8 +11788,21 @@ textarea.form-control-lg {
   font-family: "Icons";
   src: url("") format("");
 }
+body {
+  background-color: #1b1b1b;
+  color: #fafafa;
+  font-family: "Anek Gujarati", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
 h1, .h1, h2, .h2, h3, .h3 {
   text-transform: uppercase;
+}
+
+h1, .h1 {
+  font-size: 64px;
+  font-weight: 500;
 }
 
 h2, .h2 {
@@ -11821,6 +11834,14 @@ header ul {
 }
 header .logo-site img {
   max-height: 56px;
+}
+
+header .icon-burger {
+  display: none;
+}
+
+header .menu-burger {
+  display: none;
 }
 
 /*main menu*/
@@ -11859,36 +11880,10 @@ header .logo-site img {
   box-shadow: none;
 }
 
-body {
-  background-color: #1b1b1b;
-  color: #fafafa;
-  font-family: "Anek Gujarati", sans-serif;
-  font-weight: 400;
-  margin: 0;
-}
-
-h1, .h1, h2, .h2, h3, .h3 {
-  text-transform: uppercase;
-}
-
-h2, .h2 {
-  font-size: 48px;
-  font-weight: 700;
-}
-
-header .icon-burger {
-  display: none;
-}
-
-header .menu-burger {
-  display: none;
-}
-
-.section {
+.section-hero {
   position: relative;
 }
-
-h1, .h1 {
+.section-hero h1, .section-hero .h1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11898,9 +11893,19 @@ h1, .h1 {
   text-transform: uppercase;
   font-size: 96px;
 }
-
-.carouselExampleControls, .carousel-item {
+.section-hero #carouselExampleControls, .section-hero .carousel-item {
   height: 100vh;
+}
+
+.title-section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 article img {
