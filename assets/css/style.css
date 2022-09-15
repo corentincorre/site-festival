@@ -11850,6 +11850,9 @@ footer {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 10px 100px;
 }
+footer h2, footer .h2 {
+  font-size: 24px;
+}
 
 footer ul {
   list-style-type: none;
@@ -11862,6 +11865,23 @@ footer ul {
 footer ul a {
   color: #ffff;
   text-decoration: none;
+}
+
+#mc_embed_signup {
+  margin-top: 48px;
+  display: flex;
+  justify-content: flex-end;
+}
+#mc_embed_signup label {
+  display: block;
+}
+#mc_embed_signup .optionalParent {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.logo-site {
+  padding-top: 48px;
 }
 
 /*main menu*/
@@ -11948,6 +11968,26 @@ footer ul a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
+}
+
+.newsletter {
+  padding: 10px 25px;
+  box-sizing: border-box;
+  color: #fafafa;
+  font-family: "Anek Gujarati";
+  font-size: 16px;
+  line-height: 0;
+  background-color: rgba(250, 250, 250, 0.25);
+  border: none;
+  margin-right: 0;
+  border-radius: 3px;
+}
+.newsletter:focus {
+  color: #fafafa;
+  font-family: "Anek Gujarati";
+  background-color: rgba(250, 250, 250, 0.5);
+  border: none;
+  box-shadow: none;
 }
 
 .btn {

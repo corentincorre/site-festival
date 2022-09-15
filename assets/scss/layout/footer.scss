@@ -3,8 +3,12 @@ footer {
     min-height: 80px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     padding: 10px 100px;
-}
 
+    h2 {
+        font-size: 24px;
+
+    }
+}
 
 footer ul {
     list-style-type: none;
@@ -18,4 +22,25 @@ footer ul {
         color:#ffff;
         text-decoration: none;
     }
+}
+
+#mc_embed_signup {
+    margin-top: 48px;
+    display: flex;
+    justify-content: flex-end;
+
+    label {
+        display: block;
+    }
+
+
+    .optionalParent {
+      
+        margin-top: 24px;
+        margin-bottom: 48px;
+    }
+}
+
+.logo-site {
+    padding-top: 48px;
 }
