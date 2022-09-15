@@ -1,0 +1,21 @@
+footer {
+    background-color: #121212;
+    min-height: 80px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px 100px;
+}
+
+
+footer ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    gap: 80px;
+    padding:20px 0;
+    margin-bottom: 0;
+
+    a {
+        color:#ffff;
+        text-decoration: none;
+    }
+}

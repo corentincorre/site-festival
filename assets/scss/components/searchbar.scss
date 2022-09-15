@@ -1,18 +1,28 @@
-.searchbar{
-    padding: 10px 25px;
-    box-sizing: border-box;
-    color: #fafafa;
-    font-family: "Anek Gujarati";
-    font-size: 16px;
-    line-height: 0;
-    background-color: rgba(250, 250, 250, 0.25);
-    border: none;
-    &:focus{
+.search{
+    position: relative;
+    .searchbar{
+        padding: 10px 25px;
+        box-sizing: border-box;
         color: #fafafa;
         font-family: "Anek Gujarati";
-    
-        background-color: rgba(250, 250, 250, 0.50);
+        font-size: 16px;
+        line-height: 0;
+        background-color: rgba(250, 250, 250, 0.25);
         border: none;
-        box-shadow: none;
+        margin-right: 0;
+        
+        &:focus{
+            color: #fafafa;
+            font-family: "Anek Gujarati";
+        
+            background-color: rgba(250, 250, 250, 0.50);
+            border: none;
+            box-shadow: none;
+        }
+        
+    }
+    .btn{
+        position: absolute;
+        right: 0;
     }
 }

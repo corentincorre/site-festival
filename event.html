@@ -13,112 +13,130 @@
 
 <body>
     <header>
-        <a href="index.html" class="logo-site"><img src="img/logo.svg" alt="logo"></a>
-        <nav class="menu-header">          
-            <ul class="menu mb-0">
-                <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
-                <li class="nav-item"><a href="event.html" class="nav-link active">Les événements</a></li>
-                <li class="nav-item"><a href="live.html" class="nav-link">Live</a></li>
-            </ul>
-        </nav>
-        <form class="d-flex" role="search">
-            <input class="form-control searchbar me-2" type="search" placeholder="Rechercher" aria-label="Search">
-            <button class="btn" type="submit"><i></i></button>
-        </form>       
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="index.html" class="logo-site"><img src="images/logo.svg" alt="logo"></a>
+            <nav class="menu-header">          
+                <ul class="menu mb-0">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li class="nav-item"><a href="event.html" class="nav-link active">Les événements</a></li>
+                    <li class="nav-item"><a href="live.html" class="nav-link">Live</a></li>
+                </ul>
+            </nav>
+            <form class="d-flex search" role="search">
+                <input class="form-control searchbar" type="search" placeholder="Rechercher" aria-label="Search">
+                <button class="btn" type="submit"><i></i></button>
+            </form> 
+        </div>     
     </header>
 
-    <div class="title-section">
+    <div class="title-section" style="background-image:url('images/eventbanner.jpg');">
         <h1>Une multitude d'événements</h1>
     </div>
 
 
     <div class="month">
 
-        <div id="september">
+        <div id="september" class="container py-5 evenements">
 
             <h2>Septembre</h2>
         
             <div class="bloc-evenements">
+                <article class="event">
+                    <img src="images/festival1.jpg" alt="">
+                    <div class="project">
+                        <h3>Dream Nation Festival 2022</h3>
+                        <p class="address">Adresse</p>
+                        <p>vendredi 16 - dimanche 18 septembre</p>
+                        <ul class="tag-list">
+                            <li class="tag">electro</li>
+                        </ul>
+                        <a href="dream-nation.html" class="btn btn1 event-link">Voir l'evenement</a>
+                    </div>
+                </article>
+            
+                <article class="event">
+                    <img src="images/festival2.jpg" alt="">
+                    <div class="project">
+                        <h3>Dream Nation Festival 2022</h3>
+                        <p class="address">Adresse</p>
+                        <p>vendredi 16 - dimanche 18 septembre</p>
+                        <ul class="tag-list">
+                            <li class="tag">electro</li>
+                        </ul>
+                        <a href="dream-nation.html" class="btn btn1 event-link">Voir l'evenement</a>
+                    </div>
+                </article>
 
-            <article>
-                <img src="images/festival1.jpg" alt="">
-                <div class="project">
-                    <h3>Dream Nation Festival 2022</h3>
-                    <p>Adresse</p>
-                    <p>vendredi 16 - dimanche 18 septembre</p>
-                    <ul>
-                        <li></li>
-                    </ul>
-                </div>
-            </article>
-        
-            <article>
-                <img src="images/festival2.jpg" alt="">
-                <div class="project">
-                    <h3>Dream Nation Festival 2022</h3>
-                    <p>Adresse</p>
-                    <p>vendredi 16 - dimanche 18 septembre</p>
-                    <ul>
-                        <li></li>
-                    </ul>
-                </div>
-            </article>
-
-            <article>
-                <img src="images/festival3.jpg" alt="">
-                <div class="project">
-                    <h3>Dream Nation Festival 2022</h3>
-                    <p>Adresse</p>
-                    <p>vendredi 16 - dimanche 18 septembre</p>
-                    <ul>
-                        <li></li>
-                    </ul>
-                </div>
-            </article>
-
-        </div>
-
-        <div class="october">
-
-            <h2>Octobre</h2>
-    
-            <article>
+                <article class="event">
                     <img src="images/festival3.jpg" alt="">
                     <div class="project">
-                    <h3>Dream Nation Festival 2022</h3>
-                    <p>Adresse</p>
-                    <p>vendredi 16 - dimanche 18 septembre</p>
-                    <ul>
-                        <li></li>
-                    </ul>
-                </div>
-            </article>
+                        <h3>Dream Nation Festival 2022</h3>
+                        <p class="address">Adresse</p>
+                        <p>vendredi 16 - dimanche 18 septembre</p>
+                        <ul class="tag-list">
+                            <li class="tag">electro</li>
+                        </ul>
+                        <a href="dream-nation.html" class="btn btn1 event-link">Voir l'evenement</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <img src="images/festival3.jpg" alt="">
+                    <div class="project">
+                        <h3>Dream Nation Festival 2022</h3>
+                        <p class="address">Adresse</p>
+                        <p>vendredi 16 - dimanche 18 septembre</p>
+                        <ul class="tag-list">
+                            <li class="tag">electro</li>
+                        </ul>
+                        <a href="dream-nation.html" class="btn btn1 event-link">Voir l'evenement</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="container pb-5 evenements">
+
+            <h2>Octobre</h2>
+            <div class="bloc-evenements">
+                <article class="event">
+                    <img src="images/festival3.jpg" alt="">
+                    <div class="project">
+                        <h3>Dream Nation Festival 2022</h3>
+                        <p class="address">Adresse</p>
+                        <p>vendredi 16 - dimanche 18 septembre</p>
+                        <ul class="tag-list">
+                            <li class="tag">electro</li>
+                        </ul>
+                        <a href="dream-nation.html" class="btn btn1 event-link">Voir l'evenement</a>
+                    </div>
+                </article>
                 
-            <article>
-                <img src="images/festival3.jpg" alt="">
-                <div class="project">
-                    <h3>Dream Nation Festival 2022</h3>
-                    <p>Adresse</p>
-                    <p>vendredi 16 - dimanche 18 septembre</p>
-                    <ul>
-                        <li></li>
-                    </ul>
-                </div>
-            </article>
+                <article class="event">
+                    <img src="images/festival3.jpg" alt="">
+                    <div class="project">
+                        <h3>Dream Nation Festival 2022</h3>
+                        <p class="address">Adresse</p>
+                        <p>vendredi 16 - dimanche 18 septembre</p>
+                        <ul class="tag-list">
+                            <li class="tag">electro</li>
+                        </ul>
+                        <a href="dream-nation.html" class="btn btn1 event-link">Voir l'evenement</a>
+                    </div>
+                </article>
 
 
-            <article>
-                <img src="images/festival3.jpg" alt="">
-                <div class="project">
-                <h3>Dream Nation Festival 2022</h3>
-                <p>Adresse</p>
-                <p>vendredi 16 - dimanche 18 septembre</p>
-                <ul>
-                    <li></li>
-                </ul>
-                </div>
-            </article>
-
+                <article class="event">
+                    <img src="images/festival3.jpg" alt="">
+                    <div class="project">
+                        <h3>Dream Nation Festival 2022</h3>
+                        <p class="address">Adresse</p>
+                        <p>vendredi 16 - dimanche 18 septembre</p>
+                        <ul class="tag-list">
+                            <li class="tag">electro</li>
+                        </ul>
+                        <a href="dream-nation.html" class="btn btn1 event-link">Voir l'evenement</a>
+                    </div>
+                </article>
             </div>
         </div>            
     </div>

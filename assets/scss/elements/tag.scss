@@ -1,0 +1,14 @@
+.tag-list{
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+    padding-left: 0;
+    .tag{
+        background-color: rgba(250, 250, 250, 1);
+        color: #1b1b1b;
+        border-radius: 20px;
+        padding: 0 8px;
+        line-height: 20px;
+        
+    }
+}
