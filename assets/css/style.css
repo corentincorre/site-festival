@@ -11956,10 +11956,13 @@ footer ul {
 footer ul a {
   color: #ffff;
   text-decoration: none;
+  transition: all 0.3s;
+}
+footer ul a:hover {
+  color: #83D228;
 }
 
 #mc_embed_signup {
-  margin-top: 48px;
   display: flex;
   justify-content: flex-end;
 }
@@ -11967,11 +11970,8 @@ footer ul a {
   display: block;
 }
 #mc_embed_signup .optionalParent {
-  margin-top: 24px;
+  margin-top: 12px;
   margin-bottom: 48px;
-}
-#mc_embed_signup .logo-site {
-  padding-top: 48px;
 }
 
 /*main menu*/
@@ -12095,6 +12095,8 @@ footer ul a {
   border: none;
   margin-right: 0;
   border-radius: 3px;
+  display: block;
+  width: 100%;
 }
 .newsletter:focus {
   color: #fafafa;

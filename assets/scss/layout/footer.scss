@@ -8,6 +8,7 @@ footer {
         font-size: 24px;
 
     }
+
 }
 
 footer ul {
@@ -21,11 +22,16 @@ footer ul {
     a {
         color:#ffff;
         text-decoration: none;
+        transition: all .3s;
+        &:hover{
+            color: #83D228;
+        }
     }
+
+
 }
 
 #mc_embed_signup {
-    margin-top: 48px;
     display: flex;
     justify-content: flex-end;
 
@@ -36,7 +42,7 @@ footer ul {
 
     .optionalParent {
       
-        margin-top: 24px;
+        margin-top: 12px;
         margin-bottom: 48px;
     }
 }
