@@ -2,4 +2,11 @@
     background-color: #121212;
     padding: 2rem;
     border-radius: 3px;
+    .price{
+        span{
+            font-size: 48px;
+            font-weight: 700;
+            padding-left: 8px;
+        }
+    }
 }

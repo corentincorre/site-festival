@@ -26,51 +26,86 @@
                 <input class="form-control searchbar" type="search" placeholder="Rechercher" aria-label="Search">
                 <button class="btn" type="submit"><i></i></button>
             </form> 
+            <div class="icon-burger">
+                <input type="checkbox" id="burger" class="icon burger" name="burger">
+                <label for="burger">Menu</label>
+                <ul class="menu-burger">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">Accueil</a></li>
+                    <li class="nav-item"><a href="event.html" class="nav-link">Les événements</a></li>
+                    <li class="nav-item"><a href="live.html" class="nav-link">Live</a></li>
+                </ul>
+            </div> 
         </div>         
     </header>
 
     <div class="title-section">
         <h1>Des souvenirs inoubliables</h1>
     </div>
+    <section class="container py-5">
+        <h2>Septembre</h2>
 
-    <div class="month">
-
-        <div id="september">
-
-    <h2>Septembre</h2>
-
-    <div class="lives">
-
-            <article>
+        <div class="lives">
+            <article class="live">
                 <img src="images/festival1.jpg" alt="">
-                <div class="project">
-                    <h3>Dream Nation Festival 2022</h3>
-                    <p>Lieu</p>
-                    <a href="#">En savoir plus</a>
+                <h3>Dream Nation Festival 2022</h3>
+                <button type="button" class="btn btn1 live-link" data-bs-toggle="modal" data-bs-target="#modalA"></button>
+            </article>             
+            <!-- Modal -->
+            <div class="modal fade" id="modalA" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content modal-live">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Dream Nation Festival 2022</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                    </div>
                 </div>
-            </article>
-
-            <article>
-                <img src="#" alt="">
-                <div class="project">
-                    <h3>Dream Nation Festival 2022</h3>
-                    <p>Lieu</p>
-                    <a href="#">En savoir plus</a>
+            </div>
+            <article class="live">
+                <img src="images/festival1.jpg" alt="">
+                <h3>Dream Nation Festival 2022</h3>
+                <button type="button" class="btn btn1 live-link" data-bs-toggle="modal" data-bs-target="#modalB"></button>
+            </article>               
+            <!-- Modal -->
+            <div class="modal fade" id="modalB" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content modal-live"">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Dream Nation Festival 2022</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                    </div>
                 </div>
-            </article>
-
-    <h2>Octobre</h2>
-
-            <article>
-                <img src="#" alt="">
-                <div class="project">
-                    <h3>Edition 2021 : Dream Nation Festival</h3>
-                    <p>Lieu</p>
-                    <a href="#">En savoir plus</a>
+            </div>
+        </div>
+    </section>
+    <section class="container pb-5">
+        <h2>Octobre</h2>
+        <div class="lives">
+            <article class="live">
+                <img src="images/festival1.jpg" alt="">
+                <h3>Dream Nation Festival 2022</h3>
+                <button type="button" class="btn btn1 live-link" data-bs-toggle="modal" data-bs-target="#modal"></button>
+            </article>             
+            <!-- Modal -->
+            <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content modal-live">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Dream Nation Festival 2022</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                    </div>
                 </div>
-            </article>
-
-    </div>
+            </div>
+        </div>
+    </section>
 
 
     <footer>
@@ -85,5 +120,6 @@
     </footer>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     </body>
+</html>
