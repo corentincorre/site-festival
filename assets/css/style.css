@@ -12292,5 +12292,8 @@ footer ul a:hover {
 .modal-live .modal-header {
   border-bottom: none;
 }
+.modal-live .modal-footer {
+  border-top: none;
+}
 
 /*# sourceMappingURL=style.css.map */
