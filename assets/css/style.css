@@ -11939,7 +11939,7 @@ footer {
   background-color: #121212;
   min-height: 80px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 10px 100px;
+  padding: 10px 0;
 }
 footer h2, footer .h2 {
   font-size: 24px;
@@ -11949,7 +11949,9 @@ footer ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: 80px;
+  flex-wrap: wrap;
+  column-gap: 80px;
+  row-gap: 16px;
   padding: 20px 0;
   margin-bottom: 0;
 }
@@ -11964,7 +11966,6 @@ footer ul a:hover {
 
 #mc_embed_signup {
   display: flex;
-  justify-content: flex-end;
 }
 #mc_embed_signup label {
   display: block;
@@ -12056,9 +12057,6 @@ footer ul a:hover {
 }
 
 .title-section {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   height: 300px;
   display: flex;
@@ -12068,14 +12066,23 @@ footer ul a:hover {
 
 .page-events .title-section {
   background: linear-gradient(180deg, rgba(27, 27, 27, 0) 0%, #1b1b1b 95%), url("../../images/event2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page-event .title-section {
   background: linear-gradient(180deg, rgba(27, 27, 27, 0) 0%, #1b1b1b 95%), url("../../images/dreamnation.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page-lives .title-section {
   background: linear-gradient(180deg, rgba(27, 27, 27, 0) 0%, #1b1b1b 95%), url("../../images/event4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-text-img img {
@@ -12133,6 +12140,19 @@ footer ul a:hover {
   background-color: rgba(250, 250, 250, 0.5);
   border: none;
   box-shadow: none;
+}
+
+.first-section {
+  position: relative;
+}
+.first-section::before {
+  content: "";
+  position: absolute;
+  width: 337px;
+  height: 300px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(224, 181, 239, 0.86) 0%, rgba(221, 195, 230, 0.60625) 20.37%, rgba(221, 193, 231, 0) 100%);
+  top: 20px;
+  left: -270px;
 }
 
 .btn {
@@ -12251,7 +12271,6 @@ footer ul a:hover {
 .live .live-link {
   position: absolute;
   display: none;
-  font-family: "Icons";
 }
 .live:hover {
   background-color: rgba(250, 250, 250, 0.25);
@@ -12263,7 +12282,7 @@ footer ul a:hover {
 .live:hover .live-link {
   display: block;
   top: 80px;
-  left: calc(50% - 69px);
+  left: calc(50% - 54px);
   z-index: 10;
 }
 
