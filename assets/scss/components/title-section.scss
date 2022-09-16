@@ -1,7 +1,5 @@
 .title-section{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     width: 100%;
     height: 300px;
     display: flex;
@@ -12,10 +10,19 @@
 }
 .page-events .title-section{
     background: linear-gradient(180deg, rgba(27, 27, 27, 0) 0%, #1b1b1b 95%), url('../../images/event2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .page-event .title-section{
     background: linear-gradient(180deg, rgba(27, 27, 27, 0) 0%, #1b1b1b 95%), url('../../images/dreamnation.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .page-lives .title-section{
     background: linear-gradient(180deg, rgba(27, 27, 27, 0) 0%, #1b1b1b 95%), url('../../images/event4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

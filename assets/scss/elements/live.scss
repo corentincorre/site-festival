@@ -26,7 +26,6 @@
     .live-link{
         position: absolute;
         display: none;
-        font-family: 'Icons';
     }
     &:hover{
         background-color:  rgba(250, 250, 250, 0.25);
@@ -38,7 +37,7 @@
         .live-link{
             display: block;
             top: 80px;
-            left: calc(50% - 69px);
+            left: calc(50% - 54px);
             z-index: 10;
         }
     }
