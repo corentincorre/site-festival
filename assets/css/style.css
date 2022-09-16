@@ -11786,7 +11786,7 @@ textarea.form-control-lg {
 }
 @font-face {
   font-family: "Icons";
-  src: url("/Users/coren/Documents/ECV/M1-htmlcss/site-festival/fonts/site-perso.woff") format("woff");
+  src: url("../../fonts/site-perso.woff") format("woff");
 }
 body {
   background-color: #1b1b1b;
