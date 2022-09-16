@@ -13,7 +13,7 @@
         text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
     }
     #carouselExampleControls, .carousel-item {
-        height: 100vh;
+        height: calc(100vh - 80px);
     }
 }
 

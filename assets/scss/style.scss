@@ -29,6 +29,7 @@ $theme-colors: (
 @import "components/title-section.scss";
 @import "components/text-img-section.scss";
 @import "components/event-grid.scss";
+@import "components/live-grid.scss";
 @import "components/newsletter.scss";
 
 // Elements
@@ -36,5 +37,6 @@ $theme-colors: (
 @import "elements/event-cart.scss";
 @import "elements/event-infos.scss";
 @import "elements/tag.scss";
+@import "elements/live.scss";
 
 
