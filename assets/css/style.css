@@ -12063,8 +12063,19 @@ footer ul a:hover {
   height: 300px;
   display: flex;
   align-items: center;
-  justify-content: center;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.page-events .title-section {
+  background: linear-gradient(180deg, rgba(27, 27, 27, 0) 0%, #1b1b1b 95%), url("../../images/event2.jpg");
+}
+
+.page-event .title-section {
+  background: linear-gradient(180deg, rgba(27, 27, 27, 0) 0%, #1b1b1b 95%), url("../../images/dreamnation.jpg");
+}
+
+.page-lives .title-section {
+  background: linear-gradient(180deg, rgba(27, 27, 27, 0) 0%, #1b1b1b 95%), url("../../images/event4.jpg");
 }
 
 .section-text-img img {
